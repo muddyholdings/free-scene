@@ -182,7 +182,7 @@ If your video API returns a different JSON key, file an issue with a sample resp
 ## Development
 
 ```bash
-git clone https://github.com/freeaigit/free-scene.git
+git clone https://github.com/muddyholdings/free-scene.git
 cd free-scene
 pip install -e ".[dev]"
 pytest

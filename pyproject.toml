@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "freeai-scene"
-version = "0.1.1"
+version = "0.1.2"
 description = "Multi-scene AI movie maker — point at any OpenAI-compatible LLM + video API, get a stitched mp4."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -41,9 +41,9 @@ dev = ["pytest>=7", "pytest-asyncio>=0.21", "build", "twine"]
 
 [project.urls]
 Homepage = "https://free.ai/video/movie/"
-Repository = "https://github.com/freeaigit/free-scene"
-Issues = "https://github.com/freeaigit/free-scene/issues"
-Changelog = "https://github.com/freeaigit/free-scene/releases"
+Repository = "https://github.com/muddyholdings/free-scene"
+Issues = "https://github.com/muddyholdings/free-scene/issues"
+Changelog = "https://github.com/muddyholdings/free-scene/releases"
 
 [project.scripts]
 freescene = "freescene.cli:main"
